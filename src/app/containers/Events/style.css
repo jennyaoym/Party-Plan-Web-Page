@@ -1,0 +1,120 @@
+table, th, td {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 230px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding-bottom: 100px;
+
+}
+
+table{
+    width:40%;
+}
+
+th, td {
+  padding: 5px;
+}
+
+a{
+    font-size:12px;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Search Bar */
+    .search {
+      width: 500px;
+      position: relative;
+      display: flex;
+      margin-left: -270px;
+      margin-top: -220px;
+    }
+  
+    .search a:hover {
+        color: rgb(194, 184, 194);
+        border-color: rgb(194, 184, 194);
+    }
+    
+    .searchTerm {
+      width: 500px;
+      border: 3px solid black;
+      border-right: none;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      color: black;
+    }
+    
+    .searchTerm:focus{
+      color: black;
+    }
+    
+    
+    
+    .searchButton {
+      width: 40px;
+      height: 36px;
+      background-color:white; /* Blue background */
+      border: 3px solid black;
+      border-left: none;
+      color: black; /* White text */
+      padding: 3px 3px; /* Some padding */
+      font-size: 16px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+      border-radius: 0 5px 5px 0;
+    }
+  
+    .searchButton:hover {
+        color: rgb(194, 184, 194);
+    }
+    
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+      width: 100px;
+      position: relative;
+      margin-top: 230px;
+      margin-left: 500px;
+    }
+    .eventform {
+      margin-bottom: 25px;
+      position: relative;
+      padding-left: 300px;
+      padding-right: 200px;
+      padding-top: 30px;
+      border: none;
+  }
+
+  input[type=text1], input[type=date], input[type=number] {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  input[type=text1]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  select {
+    width: 50%;
+    position: relative;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    height: 30px;
+  }

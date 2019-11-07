@@ -1,0 +1,14 @@
+ul {
+    width: 900px;
+  }
+  
+  li {
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
+  margin-right: 10px;
+  }
+
+  .plusicon{
+    position: absolute;
+  }

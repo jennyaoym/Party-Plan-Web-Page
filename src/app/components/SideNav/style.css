@@ -1,0 +1,28 @@
+  /* Sidebar */
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 15px 20px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: rgb(170, 169, 169);
+  }

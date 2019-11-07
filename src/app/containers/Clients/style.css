@@ -1,0 +1,81 @@
+  
+body {
+    text-align: center;
+    background-color: white;
+  }
+  
+  h1 {
+    color: black; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 40px; 
+    line-height: 130px; 
+    font-weight: normal; 
+    margin-bottom: 0px; 
+    margin-top: 10px; 
+    margin-left: 230px;
+    text-align: left; 
+    text-shadow: 0 1px 1px #fff;
+  }
+
+  h2 {
+    text-align: left;  
+    position: relative;
+    margin-left: 230px;
+  }
+    
+    /* Search Bar */
+    .search {
+      width: 500px;
+      position: relative;
+      display: flex;
+      margin-left: -270px;
+      margin-top: -220px;
+    }
+  
+    .search a:hover {
+        color: rgb(194, 184, 194);
+        border-color: rgb(194, 184, 194);
+    }
+    
+    .searchTerm {
+      width: 500px;
+      border: 3px solid black;
+      border-right: none;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      color: black;
+    }
+    
+    .searchTerm:focus{
+      color: black;
+    }
+    
+    
+    
+    .searchButton {
+      width: 40px;
+      height: 36px;
+      background-color:white; /* Blue background */
+      border: 3px solid black;
+      border-left: none;
+      color: black; /* White text */
+      padding: 3px 3px; /* Some padding */
+      font-size: 16px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+      border-radius: 0 5px 5px 0;
+    }
+  
+    .searchButton:hover {
+        color: rgb(194, 184, 194);
+    }
+    
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+      width: 100px;
+      position: relative;
+      margin-top: 230px;
+      margin-left: 500px;
+    }
+  
